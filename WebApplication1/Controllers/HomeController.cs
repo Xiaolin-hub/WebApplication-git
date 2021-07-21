@@ -20,14 +20,14 @@ namespace WebApplication1.Controllers
         {
             ViewBag.Message = "Your application description page.";
 
-            return View();
+            return view();
         }
 
-        public ActionResult Contact()
+        public actionresult contact()
         {
-            ViewBag.Message = "Your contact page.";
+            viewbag.message = "your contact page.";
 
-            return View();
+            return view();
         }
     }
 }
